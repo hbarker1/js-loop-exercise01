@@ -22,7 +22,8 @@ for (let i = 10; i >= 1; i--) {
     } while (i <= 10);
 
 
+
     const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-    for (const numbers of numbers) {
+    for (const property of numbers) {
         console.log (numbers);
     }
